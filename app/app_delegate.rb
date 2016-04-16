@@ -7,7 +7,7 @@ class AppDelegate
     navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
 
     @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
-    @window.rootViewController = navigationController
+    @window.rootViewController = IndexController.alloc.initWithNibName(nil, bundle: nil)
     @window.makeKeyAndVisible
 
     true
