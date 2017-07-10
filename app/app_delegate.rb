@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class AppDelegate
-  def application(application, didFinishLaunchingWithOptions:launchOptions)
+  def application(_application, didFinishLaunchingWithOptions: launchOptions)
     rootViewController = UIViewController.alloc.init
     rootViewController.title = 'LGTMotion'
     rootViewController.view.backgroundColor = UIColor.whiteColor

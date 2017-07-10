@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-$:.unshift("/Library/RubyMotion/lib")
+# frozen_string_literal: true
+
+$LOAD_PATH.unshift('/Library/RubyMotion/lib')
 require 'motion/project/template/ios'
 
 begin
