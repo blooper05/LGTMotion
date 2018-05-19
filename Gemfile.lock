@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    annotate_gem (0.0.11)
+    annotate_gem (0.0.12)
       bundler (~> 1.1)
     ast (2.4.0)
     parallel (1.12.1)
@@ -10,7 +10,7 @@ GEM
     powerpack (0.1.1)
     rainbow (3.0.0)
     rake (12.3.1)
-    rubocop (0.55.0)
+    rubocop (0.56.0)
       parallel (~> 1.10)
       parser (>= 2.5)
       powerpack (~> 0.1)
