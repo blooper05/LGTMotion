@@ -2,6 +2,8 @@
 
 source 'https://rubygems.org'
 
+ruby File.read('.ruby-version').strip
+
 gem 'rake' # Rake is a Make-like program implemented in Ruby
 
 group :development do
